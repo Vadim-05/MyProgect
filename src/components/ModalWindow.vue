@@ -1,8 +1,8 @@
 <template>
-  <div v-if="isVisible" class="modal-overlay">
-    <div class="modal-content">
+  <div v-if="isVisible" class="modal">
+    <div class="modal__content">
       <slot></slot>
-      <button class="modal-close-btn" @click="$emit('close')">X</button>
+      <button class="modal__close-btn" @click="$emit('close')">X</button>
     </div>
   </div>
 </template>
@@ -18,8 +18,8 @@ export default {
 };
 </script>
 
-<style scoped>
-.modal-overlay {
+<style lang="scss">
+.modal{
   position: fixed;
   top: 0;
   left: 0;
@@ -30,26 +30,28 @@ export default {
   justify-content: center;
   align-items: center;
   z-index: 1000;
-}
 
-.modal-content {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  position: relative;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 500px;
-  width: 100%;
-}
-
-.modal-close-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: none;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
-  padding: 5px;
+  &__content{
+    background: white;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 630px;
+    width: 100%;
+  }
+  &__close-btn{
+    position: absolute;
+    top: -13px;
+    right: -9px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 32px;
+    box-shadow: 3px 11px 15px rgba(0, 0, 0, 0.3);
+    height: 32px;
+    font-size: 12px;
+    color: sienna;
+  }
 }
 </style>
