@@ -36,5 +36,24 @@
     ],
     "order": 2,
     "date": "2017-06-29 12:09:33"
+  },
+    {
+    "id": 3,
+    "serialNumber": 12343,
+    "isNew": 1,
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI0agMQJkynL1yU2DFaQwHmpc9emqSEv7dzg&s",
+    "title": "Смартфон Apple iPhone 15 128Gb Black, Blue, Green Yellowkk",
+    "type": "phone",
+    "specification": "Specification 1",
+    "guarantee": {
+      "start": "2017-06-29 12:09:33",
+      "end": "2017-06-29 12:09:33"
+    },
+    "price": [
+      { "value": 100, "symbol": "USD", "isDefault": 0 },
+      { "value": 2600, "symbol": "UAH", "isDefault": 1 }
+    ],
+    "order": 1,
+    "date": "2017-06-29 12:09:33"
   }
 ]
