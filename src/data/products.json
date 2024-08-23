@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "serialNumber": 1234,
+    "isNew": 1,
+    "photo": "https://itmag.ua/upload/iblock/d7b/nh7hkvockrm8emiszyhw9lyob6nj9gkp/36lld.jpg",
+    "title": "Ноутбук игровой Acer Nitro 5 AN515-58 (NH.QFHEU.004)",
+    "type": "Monitors",
+    "specification": "Specification 1",
+    "guarantee": {
+      "start": "2017-06-29 12:09:33",
+      "end": "2017-06-29 12:09:33"
+    },
+    "price": [
+      { "value": 100, "symbol": "USD", "isDefault": 0 },
+      { "value": 2600, "symbol": "UAH", "isDefault": 1 }
+    ],
+    "order": 1,
+    "date": "2017-06-29 12:09:33"
+  },
+  {
+    "id": 2,
+    "serialNumber": 1234,
+    "isNew": 1,
+    "photo": "https://content.rozetka.com.ua/goods/images/big/437371921.jpg",
+    "title": "Ноутбук Lenovo ThinkPad L15 Gen 4 (21H4SB7000)",
+    "type": "Monitors",
+    "specification": "Specification 2",
+    "guarantee": {
+      "start": "2017-06-29 12:09:33",
+      "end": "2017-06-29 12:09:33"
+    },
+    "price": [
+      { "value": 100, "symbol": "USD", "isDefault": 0 },
+      { "value": 2600, "symbol": "UAH", "isDefault": 1 }
+    ],
+    "order": 2,
+    "date": "2017-06-29 12:09:33"
+  }
+]
